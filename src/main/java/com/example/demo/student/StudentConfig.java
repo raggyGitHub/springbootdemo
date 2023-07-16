@@ -25,21 +25,21 @@ public class StudentConfig {
 
                     "Carito My",
                     "car_um@gmail.com",
-                    LocalDate.of(1995, Month.APRIL,15)
+                    LocalDate.of(1985, Month.APRIL,27)
 
             );
             Student carla =new Student(
 
                     "Carla U",
                     "car@gmail.com",
-                    LocalDate.of(1980, Month.APRIL,11)
+                    LocalDate.of(1981, Month.JANUARY,31)
 
             );
             Student ariana =new Student(
 
                     "Ari Mia",
-                    "fuckova@gmail.com",
-                    LocalDate.of(2008, Month.NOVEMBER,12)
+                    "are@gmail.com",
+                    LocalDate.of(2008, Month.DECEMBER,3)
 
             );
             repository.saveAll(
