@@ -18,18 +18,32 @@ public class StudentConfig {
 
                     "Ronald",
                     "ronisarmont@gmail.com",
-                    LocalDate.of(1984, Month.AUGUST,5),
-                    38
-            );
-            Student malkova =new Student(
+                    LocalDate.of(1984, Month.AUGUST,5)
 
-                    "Malkova Mia",
+            );
+            Student carito =new Student(
+
+                    "Carito My",
+                    "car_um@gmail.com",
+                    LocalDate.of(1995, Month.APRIL,15)
+
+            );
+            Student carla =new Student(
+
+                    "Carla U",
+                    "car@gmail.com",
+                    LocalDate.of(1980, Month.APRIL,11)
+
+            );
+            Student ariana =new Student(
+
+                    "Ari Mia",
                     "fuckova@gmail.com",
-                    LocalDate.of(1995, Month.APRIL,15),
-                    26
+                    LocalDate.of(2008, Month.NOVEMBER,12)
+
             );
             repository.saveAll(
-                 List.of(ronald,malkova)
+                 List.of(ronald,carito,carla,ariana)
             );
         };
     }
